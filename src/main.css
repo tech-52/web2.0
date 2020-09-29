@@ -1,0 +1,33 @@
+.center-part{
+    width: 860px;
+    display: inline-block;
+    height: 1800px;
+    /* background-color: aliceblue; */
+}
+#mainindex{
+    width: auto;
+}
+#content{
+
+    margin-left: 220px;
+    width: 1080px;
+    float: left;
+    margin-top: 50px;
+}
+.asideBar
+{
+    float: right;
+    width: 220px;
+    height: 1800px;
+}
+.bg-white-only {
+    background-color: #f9f9f9;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}

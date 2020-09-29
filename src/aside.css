@@ -1,0 +1,9 @@
+#aside
+{
+    display: inline-block;
+    background-color: #f9f9f9;
+    position: fixed;
+    width: 220px;
+    height: 1000px;
+    top:50px
+}

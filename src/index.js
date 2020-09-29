@@ -1,17 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './index.css'
+import Header from './header'
+import Aside from './aside'
+import Main from './main'
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+class Footer extends React.Component{
+  render(){
+    return(
+      <footer id="footer">
+        <span id="footer_left">© 2020 Copyright</span>
+        <span id="footer_right">Powered by Restity | Theme by React</span>
+    </footer>
+    );
+  }
+}
+  ReactDOM.render(
+    <div className="center">
+      <Header />
+      <Aside />
+      <Main />
+      <Footer />
+    </div>,
+    document.getElementById('root')
+  );

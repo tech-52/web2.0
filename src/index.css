@@ -1,13 +1,113 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*font: inherit;*/
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1.42857143;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a
+{
+    text-decoration: none;
+}
+.center
+{
+    width: 1300px;
+    height: 100%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+*
+{
+    font-family: "Source Sans Pro","Hiragino Sans GB","Microsoft Yahei",SimSun,Helvetica,Arial,Sans-serif,monospace;
+}
+.bg-white {
+    color: #777;
+}
+.bg-white a {
+    color: inherit;
+}
+.bg-white-pure {
+    background: #fff;
+}
+body {
+    color: #777;
+}
+.box-shadow-wrap-normal {
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.05);
+    box-shadow: 0 1px 3px rgba(0,0,0,.05);
+}
+.navbarright{
+    margin-left: 220px;
+}
+.hide {
+    display: none!important;
+}
+.padder {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.rounded {
+    border-radius: 500px;
+}
+#footer
+{
+    margin-left: 220px;
+    width: 1050px;
+    color: #353a48;
+    float: left;
+    padding: 15px;
+    background-color: #edf1f2;
+}
+#footer_right
+{
+    float: right;
+}
+.bg-light {
+    color: #58666e;
+    background-color: #edf1f2;
+}
+.bg-light .lter, .bg-light.lter {
+    background-color: #f9f9f9;
 }
